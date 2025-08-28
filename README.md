@@ -22,7 +22,7 @@ A Go-based **DevSecOps CLI** to scan your projects and Docker images for vulnera
 Clone the repository and build the CLI:
 
 ```bash
-git clone https://github.com/yourusername/devsecops-scan.git
+git clone https://github.com/konuamah/devsecops-scan.git
 cd devsecops-scan
 go build -o devsecops-scan ./cmd/devsecops-scan
 ```
