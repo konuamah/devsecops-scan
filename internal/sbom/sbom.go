@@ -17,6 +17,6 @@ func GenerateSBOM(target string, outputFile string) error {
 		return fmt.Errorf("failed to generate SBOM: %v\nOutput: %s", err, string(out))
 	}
 
-	fmt.Println("✅ SBOM saved to: " + outputFile)
+	fmt.Println("SBOM saved to: " + outputFile)
 	return nil
 }

@@ -41,15 +41,15 @@ type UnifiedReport struct {
 // ----------------- Logging -----------------
 
 func Info(msg string) {
-	fmt.Println("ℹ️  " + msg)
+	fmt.Println("INFO: " + msg)
 }
 
 func Warn(msg string) {
-	fmt.Println("⚠️  " + msg)
+	fmt.Println("WARN: " + msg)
 }
 
 func Error(msg string) {
-	fmt.Println("❌ " + msg)
+	fmt.Println("ERROR: " + msg)
 }
 
 // ----------------- JSON Export -----------------
@@ -70,7 +70,7 @@ func ExportJSON(results []ScanResult, filename string) {
 // PrintMarkdownTable prints a Markdown table of scan results for CI logs
 func PrintMarkdownTable(results []ScanResult) {
 	if len(results) == 0 {
-		fmt.Println("ℹ️  No issues found, nothing to display in table.")
+		fmt.Println("INFO: No issues found, nothing to display in table.")
 		return
 	}
 

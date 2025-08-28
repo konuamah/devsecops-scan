@@ -23,7 +23,7 @@ func main() {
 	minSeverity := flag.String("min-severity", "HIGH", "Minimum severity to fail pipeline (HIGH, MEDIUM, LOW)")
 	flag.Parse()
 
-	utils.Info("🚀 Starting DevSecOps Scan...")
+	utils.Info("Starting DevSecOps Scan...")
 
 	var allResults []utils.ScanResult
 	exitCode := 0
@@ -45,7 +45,7 @@ func main() {
 			if img == "" {
 				continue
 			}
-			utils.Info("🔍 Scanning Docker image: " + img)
+			utils.Info("Scanning Docker image: " + img)
 			dockerResults, dockerExit := docker.ScanDockerImage(img, *path, *failCritical, *minSeverity)
 			allResults = append(allResults, dockerResults...)
 			if dockerExit > exitCode {
@@ -55,7 +55,7 @@ func main() {
 	}
 
 	// ----------------- Secret Scan -----------------
-	utils.Info("🔍 Running hardcoded secrets scan...")
+	utils.Info("Running hardcoded secrets scan...")
 	secretResults, secretExit := code.ScanSecrets(*path, *failCritical)
 	allResults = append(allResults, secretResults...)
 	if secretExit > exitCode {
@@ -75,14 +75,14 @@ func main() {
 			utils.Error("Failed to write unified JSON: " + err.Error())
 			exitCode = 2
 		} else {
-			utils.Info("✅ Unified results saved to " + *jsonOut)
+			utils.Info("Unified results saved to " + *jsonOut)
 		}
 	}
 
 	// ----------------- Optional SBOM -----------------
 	if *sbomFlag != "" {
 		if err := sbom.GenerateSBOM(*path, *sbomFlag); err != nil {
-			utils.Error("❌ " + err.Error())
+			utils.Error(err.Error())
 		}
 	}
 

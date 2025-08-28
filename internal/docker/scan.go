@@ -11,7 +11,7 @@ import (
 
 // ScanDockerImage scans a Docker image for vulnerabilities
 func ScanDockerImage(image string, path string, failOnCritical bool, minSeverity string) ([]utils.ScanResult, int) {
-	utils.Info("🔍 Scanning Docker image: " + image)
+	utils.Info("Scanning Docker image: " + image)
 	jsonFile := "trivy_temp.json"
 
 	cmd := exec.Command("trivy", "image", "-f", "json", "-o", jsonFile, image)
@@ -53,7 +53,7 @@ func ScanDockerImage(image string, path string, failOnCritical bool, minSeverity
 				ScanType: utils.DOCKER,
 				Target:   res.Target,
 				Package:  v.PkgName,
-				Severity: utils.Severity(v.Severity), // cast string to Severity
+				Severity: utils.Severity(v.Severity),
 				Details:  v.Title,
 			})
 
@@ -87,7 +87,7 @@ func ScanDockerImage(image string, path string, failOnCritical bool, minSeverity
 		}
 	}
 	if fail && failOnCritical {
-		utils.Error("❌ Failing due to Docker issues at or above min severity: " + minSeverity)
+		utils.Error("Failing due to Docker issues at or above min severity: " + minSeverity)
 		exitCode = 1
 	}
 

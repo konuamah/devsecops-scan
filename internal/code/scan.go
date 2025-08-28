@@ -124,7 +124,7 @@ func RunGosec(path string, failOnCritical bool, minSeverity string) ([]utils.Sca
 		}
 	}
 	if fail && failOnCritical {
-		utils.Error("❌ Failing due to issues at or above min severity: " + minSeverity)
+		utils.Error(" Failing due to issues at or above min severity: " + minSeverity)
 		return results, 1
 	}
 
@@ -160,7 +160,7 @@ func Scan(path string, failOnCritical bool) ([]utils.ScanResult, int) {
 	// Exit code handling
 	exitCode := 0
 	if failOnCritical && len(results) > 0 {
-		utils.Error("❌ Critical issues found!")
+		utils.Error(" Critical issues found!")
 		exitCode = 1
 	}
 
