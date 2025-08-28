@@ -1,0 +1,2956 @@
+[
+  {
+    "scan_type": "GOSEC",
+    "target": "/Users/slammtechnologies/Documents/devsecops-scan/internal/code/secrets.go",
+    "line": 33,
+    "severity": "MEDIUM",
+    "details": "Potential file inclusion via variable"
+  },
+  {
+    "scan_type": "GOSEC",
+    "target": "/Users/slammtechnologies/Documents/devsecops-scan/internal/code/scan.go",
+    "line": 172,
+    "severity": "MEDIUM",
+    "details": "Potential file inclusion via variable"
+  },
+  {
+    "scan_type": "GOSEC",
+    "target": "/Users/slammtechnologies/Documents/devsecops-scan/internal/utils/logger.go",
+    "line": 63,
+    "severity": "MEDIUM",
+    "details": "Expect WriteFile permissions to be 0600 or less"
+  },
+  {
+    "scan_type": "GOSEC",
+    "target": "/Users/slammtechnologies/Documents/devsecops-scan/cmd/devsecops-scan/main.go",
+    "line": 74,
+    "severity": "MEDIUM",
+    "details": "Expect WriteFile permissions to be 0600 or less"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "cmd/devsecops-scan/main.go",
+    "line": 57,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "cmd/devsecops-scan/main.go",
+    "line": 58,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "cmd/devsecops-scan/main.go",
+    "line": 59,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "cmd/devsecops-scan/main.go",
+    "line": 60,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "cmd/devsecops-scan/main.go",
+    "line": 61,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "cmd/devsecops-scan/main.go",
+    "line": 62,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/scan.go",
+    "line": 16,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/scan.go",
+    "line": 16,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/scan.go",
+    "line": 16,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: apikey"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/scan.go",
+    "line": 16,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: token"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/scan.go",
+    "line": 16,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: private_key"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/scan.go",
+    "line": 134,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/scan.go",
+    "line": 188,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/secrets.go",
+    "line": 13,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/secrets.go",
+    "line": 13,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/secrets.go",
+    "line": 13,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: apikey"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/secrets.go",
+    "line": 13,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: token"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/secrets.go",
+    "line": 13,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: private_key"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/secrets.go",
+    "line": 15,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/secrets.go",
+    "line": 16,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/secrets.go",
+    "line": 17,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/secrets.go",
+    "line": 44,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/secrets.go",
+    "line": 46,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/secrets.go",
+    "line": 48,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/secrets.go",
+    "line": 52,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/secrets.go",
+    "line": 73,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/code/secrets.go",
+    "line": 77,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/utils/logger.go",
+    "line": 25,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "internal/utils/logger.go",
+    "line": 29,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 4,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 31,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 35,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 38,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 42,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 45,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 49,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 52,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 56,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 59,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 63,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 66,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 70,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 73,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 77,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 77,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 80,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 84,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 87,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 91,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 91,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: apikey"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 94,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 98,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 98,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: token"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 101,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 105,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 105,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: private_key"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 108,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 112,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 115,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 119,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 122,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 123,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 126,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 126,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 129,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 130,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 133,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 136,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 137,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 140,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 140,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: apikey"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 143,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 144,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 147,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 147,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: token"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 150,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 151,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 154,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 154,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: private_key"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 157,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 158,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 161,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 164,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 165,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 168,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 171,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 172,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 175,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 178,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 179,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 182,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 185,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 186,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 189,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 192,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 193,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 196,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 199,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 200,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 203,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 206,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 207,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 210,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 213,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 214,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 217,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 220,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 224,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 227,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 231,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 234,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 238,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 241,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 245,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 248,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 252,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 255,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 259,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 262,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 266,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 269,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 273,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 276,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 280,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 283,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 287,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 290,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 294,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 297,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 301,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 304,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 308,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 311,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 315,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 318,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 322,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 325,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 329,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 332,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 336,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 336,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 339,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 343,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 346,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 350,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 353,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 357,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 360,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 364,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 367,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 371,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 374,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 378,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 378,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: apikey"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 381,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 385,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 388,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 392,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 395,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 399,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 399,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: token"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 402,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 406,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 409,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 413,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 416,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 420,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 420,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: private_key"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 423,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 427,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 430,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 434,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 437,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 441,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 444,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 448,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 451,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 455,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 458,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 462,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 465,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 469,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 469,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 472,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 476,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 479,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 483,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 486,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 490,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 493,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 497,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 500,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 504,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 507,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 511,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 514,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 518,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 521,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 525,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 525,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: apikey"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 528,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 532,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 535,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 539,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 542,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 546,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 549,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 553,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 553,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: token"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 556,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 560,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 563,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 567,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 570,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 574,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 577,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 581,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 581,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: private_key"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 584,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 588,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 591,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 595,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 598,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 602,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 605,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 609,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 612,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 616,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 619,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 623,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 626,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 630,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 633,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 637,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 640,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 644,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 647,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 651,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 654,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 658,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 661,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 665,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 668,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 672,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 675,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 679,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 682,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 686,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 689,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 693,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 696,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 700,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 703,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 707,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 710,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 714,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 717,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 721,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 724,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 728,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 731,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 735,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 738,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 742,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 745,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 749,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 752,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 756,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 759,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 763,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 766,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 770,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 773,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 777,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 780,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 784,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 787,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 791,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 794,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 798,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 801,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 805,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 808,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 812,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 815,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 819,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 819,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: token"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 822,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 826,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 829,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 833,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 836,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 840,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 840,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: token"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 843,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 847,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 850,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 854,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 854,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 857,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 861,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 864,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 868,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 871,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 875,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 875,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 878,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 882,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 885,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 889,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 892,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 896,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 899,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 903,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 906,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 910,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 910,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 913,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 917,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 920,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 924,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 927,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 931,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 931,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 934,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 938,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 941,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 945,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 948,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 952,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 955,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 959,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 962,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 966,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 966,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 969,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 973,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 976,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 980,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 983,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 987,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 987,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 990,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 994,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 997,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1001,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1004,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1008,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1011,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1015,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1018,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1022,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1022,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1025,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1029,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1032,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1036,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1039,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1043,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1043,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1046,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1050,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1053,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1057,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1060,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1064,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1067,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1071,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1071,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: token"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1074,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1078,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1078,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: token"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1081,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1085,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1085,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1088,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1092,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1092,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1095,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1099,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1102,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1106,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1106,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1109,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1113,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1113,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1116,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1120,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1123,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1127,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1127,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1130,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1134,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1134,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1137,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1141,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1144,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1148,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1148,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1151,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1155,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1155,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1158,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "results.json",
+    "line": 1162,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "trivy_temp.json",
+    "line": 2340,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: token"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "trivy_temp.json",
+    "line": 2341,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: token"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "trivy_temp.json",
+    "line": 4622,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "trivy_temp.json",
+    "line": 4623,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "trivy_temp.json",
+    "line": 4623,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "trivy_temp.json",
+    "line": 4831,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "trivy_temp.json",
+    "line": 4832,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "trivy_temp.json",
+    "line": 4832,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "trivy_temp.json",
+    "line": 5040,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "trivy_temp.json",
+    "line": 5041,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "trivy_temp.json",
+    "line": 5041,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "trivy_temp.json",
+    "line": 5249,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "trivy_temp.json",
+    "line": 5250,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: password"
+  },
+  {
+    "scan_type": "SECRET",
+    "target": "trivy_temp.json",
+    "line": 5250,
+    "severity": "HIGH",
+    "details": "Hardcoded secret: secret"
+  }
+]

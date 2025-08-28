@@ -1,0 +1,30 @@
+[
+  {
+    "scan_type": "GOSEC",
+    "target": "/Users/slammtechnologies/Documents/devsecops-scan/internal/code/scan.go",
+    "line": 172,
+    "severity": "MEDIUM",
+    "details": "Potential file inclusion via variable"
+  },
+  {
+    "scan_type": "GOSEC",
+    "target": "/Users/slammtechnologies/Documents/devsecops-scan/internal/utils/logger.go",
+    "line": 63,
+    "severity": "MEDIUM",
+    "details": "Expect WriteFile permissions to be 0600 or less"
+  },
+  {
+    "scan_type": "GOSEC",
+    "target": "/Users/slammtechnologies/Documents/devsecops-scan/cmd/devsecops-scan/main.go",
+    "line": 46,
+    "severity": "MEDIUM",
+    "details": "Expect WriteFile permissions to be 0600 or less"
+  },
+  {
+    "scan_type": "GOSEC",
+    "target": "/Users/slammtechnologies/Documents/devsecops-scan/cmd/devsecops-scan/main.go",
+    "line": 46,
+    "severity": "LOW",
+    "details": "Errors unhandled"
+  }
+]
